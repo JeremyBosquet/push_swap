@@ -3,7 +3,7 @@
 
 Given a set of integers, sort it using a predefined set of instructions using two stacks. The instruction set is defined below. This program outputs a program in push_swap instructions that sorts the input integers.
 
-# Instruction set
+## Instruction set
 For the following instructions, if the instruction is not possible, the part of it that can't be executed won't.
 
 | Code  | Instructions | Action |
@@ -20,10 +20,10 @@ For the following instructions, if the instruction is not possible, the part of 
 | rrb  | reverse rotate b | shifts all elements of stack b from top to bottom |
 | rrr  | reverse rotate a + reverse rotate b | both rra and rrb |
 
-# Compiling
+## Compiling
 > Run ```make```
 
-# Running
+## Running
 ```
 ./push_swap 1 2 3 4
 ```
