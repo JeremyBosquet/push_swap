@@ -4,3 +4,4 @@ testers
 *.o
 objs
 .DS_Store
+README.md
